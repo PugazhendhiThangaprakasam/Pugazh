@@ -8,14 +8,14 @@ function ToggleState()
         setTimes(times+1);
         if(times===3)
         {
-            setStates(states==='Kaioken' ? 'SuperSaiyan' : 'kaioken')
             setTimes(0);
+            setStates(states==='Kaioken' ? 'SuperSaiyan' : 'Kaioken')
         }
     }
    
     return(
         <div>
-        <h2>{states}</h2>;
+        <h2>{states}</h2>
         <button onClick={addTimes}>clickMe</button>
         </div>
     )

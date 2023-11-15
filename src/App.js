@@ -1,16 +1,22 @@
+import MyForm from "./Day2/Pah";
 import Greeting from "./Day2/clswork";
+import Myfunction from "./Day2/clswork2";
 import ToggleState from "./Day3/Pah";
-import MyClassComponent from "./components/ClassComponent";
-import MyFunctionComponent from "./components/functionComponent";
+import Message from "./Day3/clswork";
+
+
+
 
 
 function App() {
   return (
     <div>
-      {/* <MyClassComponent />
-      <MyFunctionComponent />
-      <Greeting/> */}
-      <ToggleState/>
+      <Greeting/>
+      {/* <Myfunction/> */}
+      {/* <MyForm/> */}
+      {/* <Message/> */}
+      {/* <ToggleState/> */}
+
     </div>
   );
 }
