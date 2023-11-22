@@ -1,0 +1,35 @@
+{
+    "books" : [
+        {
+            "id" : 1,
+            "title" : "arjun@mail",
+            "password" : "Arjun"
+        },
+        {
+            "id" : 2,
+            "title" : "arjun@mail",
+            "password" : "Arjun"
+        }
+       
+    ],
+    "products":[
+        {
+            "id" : 1,
+            "name" : "Product A",
+            "description" : "This is Product A",
+            "price" : 10.99
+        },
+        {
+            "id" : 2,
+            "name" : "Product B",
+            "description" : "This is Product B",
+            "price" : 11.99
+        },
+        {
+            "id" : 3,
+            "name" : "Product C",
+            "description" : "This is Product c",
+            "price" : 12.99
+        }
+    ]
+}
